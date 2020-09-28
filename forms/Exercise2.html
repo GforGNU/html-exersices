@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercise #2: Subscription form</title>
+</head>
+<body>
+	<h3> Personal details </h3>
+	<form>
+		<label for="fname"> First Name</label>
+		<input type="text" name="First Name"> <br>
+		<label for="lname"> Last Name</label>
+		<input type="text" name="Last Name"> <br>
+		<label for="email"> Email</label>
+		<input type="email" name="Email"> <br>
+		<label for="Gender"> Gender</label>
+		<input type="radio"id="male" name="Gender" value="male">
+		<label for="male">Male</label>
+		<input type="radio"id="female" name="Gender" value="female">
+		<label for="female">Female</label>
+		
+	</form>
+	
+	<h3>Magazines</h3>
+	<form>
+		<input type="checkbox" id="Magazines" name="Magazines" value="Stavanger Aftenblad">
+  <label for="Magazines1"> Stavanger Aftenblad</label><br>
+
+
+  <input type="checkbox" id="Magazines" name="Magazines" value="Teknisk Ukeblad">
+  <label for="Magazines2"> Teknisk Ukeblad</label><br>
+  
+
+  <input type="checkbox" id="Magazines" name="Magazines" value="Se og Hor">
+  <label for="Magazines3"> Se og Hor</label><br>
+  
+
+
+  <input type="checkbox" id="Magazines" name="Magazines" value="Familien">
+  <label for="Magazines4"> Familien</label><br>
+  
+	</form>
+<h3>Subscription</h3>
+<form action="" method="get">
+	<label for="Period"> Period:</label>
+  <input type="list" name="Period" list="Period">
+  <datalist id="Period">
+    <option value="6 months">
+    <option value="12 months">
+    <option value="18 months">
+    <option value="24 months">
+  </datalist>
+
+
+</form>
+<form>
+	<input type="submit" value="Subscribe">
+
+</form>
+ 
+
+</body>
+</html>
