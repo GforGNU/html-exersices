@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercise #4: Subscription form 3</title>
+</head>
+<body>
+	<style>
+
+
+fieldset {
+width: 30%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #FFEBE1;
+  resize: none;
+  margin: auto;
+
+}
+
+
+input {
+  margin: 5px;
+}
+</style>
+</head>
+<body>
+	
+	
+	
+<center><form> 
+	<fieldset align="center" style="background-color: #FFEBE1" >
+
+    <legend>Personal details</legend>
+	
+	
+		<label for="fname"> First Name</label>
+		<input type="text" name="First Name"> <br>
+		<label for="lname"> Last Name</label>
+		<input type="text" name="Last Name"> <br>
+		<label for="email"> Email</label>
+		<input type="email" name="Email"> <br>
+		<label for="Gender"> Gender</label>
+		<input type="radio"id="male" name="Gender" value="male">
+		<label for="male">Male</label>
+		<input type="radio"id="female" name="Gender" value="female">
+		<label for="female">Female</label>
+		</fieldset>
+	</form>
+	
+
+
+	<form>
+		<fieldset align="left";>
+			<legend>Magazines</legend>
+		
+		<input type="checkbox" id="Magazines" name="Magazines" value="Stavanger Aftenblad">
+  <label for="Magazines1"> Stavanger Aftenblad</label><br>
+
+
+  <input type="checkbox" id="Magazines" name="Magazines" value="Teknisk Ukeblad">
+  <label for="Magazines2"> Teknisk Ukeblad</label><br>
+  
+
+  <input type="checkbox" id="Magazines" name="Magazines" value="Se og Hor">
+  <label for="Magazines3"> Se og Hor</label><br>
+  
+
+
+  <input type="checkbox" id="Magazines" name="Magazines" value="Familien">
+  <label for="Magazines4"> Familien</label><br>
+  </fieldset>
+	</form>
+
+
+
+<form action="" method="get">
+	<fieldset>
+		<legend>Subscription</legend>
+	
+	<label for="Period"> Period:</label>
+  <input type="list" name="Period" list="Period">
+  <datalist id="Period">
+    <option value="6 months">
+    <option value="12 months">
+    <option value="18 months">
+    <option value="24 months">
+  </datalist>
+
+</fieldset>
+</form>
+<form>
+
+	<input type="submit" value="Subscribe" >
+
+</form>
+ 
+
+</body>
+</html>
